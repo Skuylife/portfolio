@@ -169,7 +169,7 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "University SSSS",
         description: <>Studied software engineering.</>,
       },
       {
