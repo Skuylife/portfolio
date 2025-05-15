@@ -169,7 +169,7 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University SSSS",
+        name: "STMIK Jayanusa",
         description: <>Studied software engineering.</>,
       },
       {
