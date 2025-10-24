@@ -2,15 +2,15 @@ import { Logo } from "@/once-ui/components";
 
 const person = {
   firstName: "Habil",
-  lastName: "Yakub Arafah",
+  lastName: "Yakub Arapah",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Full Stack Developer",
-  avatar: "/images/bibil.png", // Path to your avatar image
+  avatar: "/images/bibil.png",
   email: "habilarafah21@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Indonesia/Padang",
+  languages: ["Bahasa", "English"],
 };
 
 const newsletter = {
@@ -99,8 +99,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Arafah is a Jakarta-based full stack developer with a passion for
-        turning complex challenges into clean, efficient, and scalable digital
+        Arafah is a Bekasi-based full stack developer with a passion for turning
+        complex challenges into clean, efficient, and scalable digital
         solutions. Her work spans both front-end and back-end development,
         interactive web applications, and the seamless integration of design and
         technology.
@@ -112,9 +112,9 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Full Stack Developer",
+        company: "Diskominfo Padang",
+        timeframe: "April 2025 - July 2025",
+        role: "Full Stack Developer (Internship)",
         achievements: [
           <>
             Rebuilt and optimized the FLY platform, improving performance with a
@@ -170,11 +170,11 @@ const about = {
     institutions: [
       {
         name: "STMIK Jayanusa",
-        description: <>Studied software engineering.</>,
+        description: <>Studied computer engineering.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Senior High School 2 Payakumbuh",
+        description: <>Studied science.</>,
       },
     ],
   },
@@ -184,9 +184,7 @@ const about = {
     skills: [
       {
         title: "Figma",
-        description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
+        description: <>Able to prototype in Figma with Once UI.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
